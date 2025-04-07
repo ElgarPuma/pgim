@@ -1,0 +1,97 @@
+#key del módulo de seguridad
+security.enc.key=${security_enc_key}
+
+#id de la aplicación en el módulo de seguridad SISEG
+application.id=${application_id}
+
+#ubicación de la carpeta para uso de archivos temporales (ruta absoluta)
+carpeta.tmp=${carpeta_tmp}
+
+#ubicación del repositorio de documento
+files.repo=${files_repo}
+
+#Link del servicio SIGED (rest-old)
+url.siged.rest.old=${url_siged_rest_old}
+
+#Link del servicio SIGED 
+url.siged=${url_siged}
+
+#Link del servicio SISSEG-PGIM
+url.sisseg.pgim=${url_sisseg_pgim}
+
+#Integración PIDO (desarrollo)
+usuario.pido=${usuario_pido}
+password.pido=${password_pido}
+url.pido=${url_pido}
+
+#Ruta del servicio SIGED - SOAP
+url.siged.soap=${url_siged_soap}
+username.siged.soap=${username_siged_soap}
+password.siged.soap=${password_siged_soap}
+
+#datos usuario administrador PGIM
+user.siged.admin=${user_siged_admin}
+terminal.siged.admin=${terminal_siged_admin}
+
+#Parámetros del servicio SNE (casillas electrónicas)
+url.sne.api.rest=${url_sne_api_rest}
+app.sne.api.invoker=${app_sne_api_invoker}
+id.sne.api.procedimiento=${id_sne_api_procedimiento}
+sector.sne.api=${sector_sne_api}
+
+#Parámetros del servicio SYM-WEB
+url.sym.web=${url_sym_web}
+
+#Parámetros del servicio SYM-REST
+url.sym.rest=${url_sym_rest}
+
+#Licencia Aspose
+licencia.aspose=${licencia_aspose}
+
+#Plantillas de documentos
+files.repo.plantillas=${files_repo_plantillas}
+
+#Parametros del servicio Reniec orquestado
+user.dni.ws.pido=${user_dni_ws_pido}
+password.ws.pido=${password_ws_pido}
+reniec.user.dni.ws.pido=${reniec_user_dni_ws_pido}
+
+#Duración token
+access.token.validity.seconds=${access_token_validity_seconds}
+
+#Duración token refresh
+refresh.token.validity.seconds=${refresh_token_validity_seconds}
+
+#CLIENTE QUE PUEDE SUSCRIBIRSE AL SERVICIO DEL WEBSOCKET DE LA PGIM.
+url.pgim.cliente=${url_pgim_cliente}
+
+#Expresiones cron, que nos permite enviar alertas de cumplimientos según lo programado
+cronpgim.semanal=${cronpgim_semanal}
+cronpgim.diario=${cronpgim_diario}
+
+#Ruta del microservicio SISSEG-AS
+url.sisseg.as=${url_sisseg_as}
+
+#Ruta del microservicio SISSEG-RESOURCES
+url.sisseg.resources=${url_sisseg_resources}
+
+# LLaves de encriptación para ACCESO_SIGED_REST, para hacer uso del servicio reenviarSubFlujo 
+key.enc.acceso.siged.rest=${key_enc_acceso_siged_rest}
+
+# Ubicación de los archivos de las guías de la PGIM
+carpeta.guias=${carpeta_guias}
+
+#ubicación de la carpeta para almacenamientos de fotos de perfil de usuario
+carpeta.photos=${carpeta_photos}
+
+# Parámetros del API Alfresco
+alfresco.api.url=${alfresco_api_url}
+alfresco.api.usuario=${alfresco_api_usuario}
+alfresco.api.clave=${alfresco_api_clave}
+
+# Parámetros para la generación de item de programa a partir del ranking
+# Cantidad anual máxima de fiscalizaciones por unidad fiscalizable
+nu.max.fiscalizacion.anual.xuf=${nu_max_fiscalizacion_anual_xuf}
+
+# Cantidad mensual máxima de fiscalizaciones por defecto, el usuario lo puede modificar
+nu.max.fiscalizacion.mensual=${nu_max_fiscalizacion_mensual}

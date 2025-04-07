@@ -1,0 +1,54 @@
+server:
+  servlet:
+    context-path: /pgim-backend
+  port : 8085 #comentar para el pase a weblogic
+  max-http-header-size: 1MB
+
+# ===============================
+# = DATA SOURCE ORACLE
+# ===============================
+
+#configuracion oracle basica
+
+spring:
+  #conexion primaria y por defecto al pgim
+  datasource:
+    url: jdbc:oracle:thin:@11.160.123.168:1521:O12D01
+    #url: jdbc:oracle:thin:@cloud.net-consultores.com:1521:orcl11g
+    username: pgim_app
+    #password: SQL
+    password: Pg1MApp2020$desa
+    driver-class-name: oracle.jdbc.OracleDriver
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 5
+    #jndi-name: jdbc/pgim
+    sql-script-encoding: UTF-8
+  jpa:
+    properties:
+      hibernate:
+        default_schema: pgim
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    show-sql: true
+
+  servlet:
+    multipart:
+      max-file-size: 199MB
+      max-request-size: 199MB
+
+# Ruta de credenciales de mi cuenta de servicio de google cloud
+# google:
+#   earthengine:
+#     credentials: classpath:ee-juanvalerio785-a12c60f7801c.json
+
+#CONFIGURAR DE LOS LOGS POR DEFAULT EL FILE MAX SIZE SON 10MB
+logging:
+  level:
+    root: INFO
+    com.memorynotfound: DEBUG
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    org.hibernate.SQL: debug
+
+
+      

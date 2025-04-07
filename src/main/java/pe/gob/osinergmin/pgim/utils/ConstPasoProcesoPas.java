@@ -1,0 +1,58 @@
+package pe.gob.osinergmin.pgim.utils;
+
+public class ConstPasoProcesoPas {
+    
+    public static final Long INICIOPAS_PREPARAR_DOC_PAS = 30L;
+
+    public static final Long INICIOPAS_FORMULAR_APROBAR_OIPAS = 61L;
+
+    public static final Long FORMULACIONIFI_FORMULAR_IFI = 85L;
+
+    public static final Long FORMULACIONIFI_ELABORAR_PROPUESTA_MULTA = 88L;
+
+    public static final Long FORMULACIONIFI_APROBAR_IFI_PARTE_TECNICA = 89L;
+
+    public static final Long FORMULACIONIFI_APROBAR_IFI_PARTE_LEGAL = 90L;
+
+    public static final Long FORMULACIONIFI_RECALCULAR_MULTA_POR_DESCARGOS = 110L;
+
+    public static final Long RESOLSANCION_DETERMINAR_SANCION_ARCHIVO_AMPLIACION = 111L;
+
+    public static final Long NOTIFICAR_RESCALIFICACION_DERIVAREXP_TASTEM = 167L;
+    
+    public static final Long VERIFICAR_PAGO_MULTA_INFRACCIONES = 193L;
+
+    public static final Long INICIOPAS_RESPONDER_ESCRITO = 211L;
+
+    public static final Long INICIOPAS_VERIFICAR_VALIDEZ_NOTFISICA = 220L;
+
+    public static final Long INICIOPAS_VERIFICAR_VALIDEZ_NOTELECTRONICA = 222L;
+
+    public static final Long FORMULACIONIFI_RESPONDER_ESCRITO = 223L;
+
+    public static final Long FORMULACIONIFI_VERIFICAR_VALIDEZ_NOTFISICA = 232L;
+
+    public static final Long FORMULACIONIFI_VERIFICAR_VALIDEZ_NOTELECTRONICA = 234L;
+
+    public static final Long RESOLSANCION_RESPONDER_ESCRITO = 235L;
+
+    public static final Long RESOLSANCION_VERIFICAR_VALIDEZ_NOTFISICA = 244L;
+
+    public static final Long RESOLSANCION_VERIFICAR_VALIDEZ_NOTELECTRONICA = 246L;
+    
+    public static final Long RECRECONSIDERACION_RESPONDER_ESCRITO = 247L;
+
+    public static final Long RECRECONSIDERACION_VERIFICAR_VALIDEZ_NOTFISICA = 256L;
+
+    public static final Long RECRECONSIDERACION_VERIFICAR_VALIDEZ_NOTELECTRONICA = 258L;
+
+    public static final Long DERIVACIONCOACTIVA_RESPONDER_ESCRITO = 259L;
+
+    public static final Long DERIVACIONCOACTIVA_VERIFICAR_VALIDEZ_NOTFISICA = 268L;
+
+    public static final Long DERIVACIONCOACTIVA_VERIFICAR_VALIDEZ_NOTELECTRONICA = 270L;
+
+    public static final Long CONTINUAR_CON_TRAMITE_PAS = 367L;
+
+
+}
